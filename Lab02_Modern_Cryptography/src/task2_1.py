@@ -20,8 +20,7 @@ def track_avalanche(msg, key):
     
     return (L << 4) | R
 
-key_test = 0x12
 print("--- Mã hóa M1 (0xAB) ---")
-track_avalanche(0xAB, key_test)
+track_avalanche(0xAB, 0x12)
 print("\n--- Mã hóa M2 (0xAC) ---")
-track_avalanche(0xAC, key_test)
+track_avalanche(0xAC, 0x12)
