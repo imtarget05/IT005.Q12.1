@@ -14,7 +14,7 @@ Bài thực hành các thuật toán mã hóa hiện đại bằng Python, bao g
 ### Cài đặt thư viện
 
 ```bash
-pip install pycryptodome sympy
+pip install pycryptodome sympythương thì thôi 
 ```
 
 Hoặc trên một số hệ thống:
